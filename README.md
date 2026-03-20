@@ -1,5 +1,4 @@
-# dharti-dashboard
-DHARTI Agricultural Dashboard
+
 # 🌱 DHARTI Dashboard
 
 A frontend dashboard for DHARTI — an AI-powered agricultural advisory platform.
