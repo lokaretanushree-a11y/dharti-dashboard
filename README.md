@@ -15,4 +15,4 @@ A frontend dashboard for DHARTI — an AI-powered agricultural advisory platform
 - Inline CSS
 
 ## Made by
-[Tera Naam] — Frontend Team, DHARTI
+Tanushree Lokare
