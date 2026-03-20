@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DHARTI-Dashboard</title>
+</head>
+<body style="margin: 0; background-color: #163319; color: white;">
+    <nav style="background-color: #0a1a0c; padding: 15px 30px; border-bottom: 2px solid #57ba5a; display: flex; align-items: center; gap: 20px;">
+        <div style="width: 36px; height: 36px; background-color: #4caf50; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 20px;">
+        🌱
+    </div>
+        <h1 style="margin-right: 50px;">DHARTI</h1>
+        <a href="#" style="color: white; text-decoration: none;  font-size: 17px;">Dashboard</a>
+        <a href="#" style="color: white; text-decoration: none;  font-size: 17px;">Alerts</a>
+        <a href="#" style="color: white; text-decoration: none;  font-size: 17px;">Fields</a>
+        <a href="#" style="color: white; text-decoration: none;  font-size: 17px;">Map</a>
+    </nav>
+
+    <div style="display: flex;">
+        <aside style="width: 220px; min-height: 100vh; background-color: #0f2912; padding: 20px; border-right: 2px solid #4caf50;">
+            <h2>Navigation</h2>
+            <a href="#" style="display: block; padding: 10px 14px; color: #a5d6a7; text-decoration: none;">Dashboard</a>
+            <a href="#" style="display: block; padding: 10px 14px; color: #a5d6a7; text-decoration: none;">Alerts</a>
+            <a href="#" style="display: block; padding: 10px 14px; color: #a5d6a7; text-decoration: none;">My Field</a>
+            <a href="#" style="display: block; padding: 10px 14px; color: #a5d6a7; text-decoration: none;">Recommendations</a>
+            <a href="#" style="display: block; padding: 10px 14px; color: #a5d6a7; text-decoration: none;">Map View</a>
+            <a href="#" style="display: block; padding: 10px 14px; color: #a5d6a7; text-decoration: none;">Reports</a>
+        </aside>
+
+        <main style="flex: 1; padding: 30px;">
+            <section>
+                <h1>Farm Overview</h1>
+            </section>
+            <section style="background-color: #3b0000; border: 2px solid #c62828; border-radius: 10px; padding: 15px 20px; margin-bottom: 20px;">
+                <h2 style="color: #ff6b6b; margin: 0 0 8px 0;">🚨 High Alert - Field #2</h2>
+                <p>High pest risk. Spary pesticide within 24 hours.</p>
+            </section>
+
+            <section style="display: flex; gap: 16px; margin-bottom: 24px;">
+                <div style="background-color: #0f2811; border: 1px solid #4caf50; border-radius: 10px; padding: 16px 20px; min-width: 140px; font-size: 18px;">🌾 Total Fields: 6</div>
+                <div style="background-color: #0f2811; border: 1px solid #4caf50; border-radius: 10px; padding: 16px 20px; min-width: 140px; font-size: 18px;">🌱 Crop Health: Good</div>
+                <div style="background-color: #0f2811; border: 1px solid #4caf50; border-radius: 10px; padding: 16px 20px; min-width: 140px; font-size: 18px;">🚨 Active Alerts: 3</div>
+                <div style="background-color: #0f2811; border: 1px solid #4caf50; border-radius: 10px; padding: 16px 20px; min-width: 140px; font-size: 18px;">📈 Yield Forecast: +12%</div>
+            </section>
+
+            <section>
+                <h2>Field Stats</h2>
+                <table border="2" style="width: 100%; border-collapse: collapse; margin-top: 10px;">
+                    <thead>
+                        <tr>
+                           <th style="background-color: #1a3d1c; color: #a5d6a7; padding: 10px; text-align: center;">Field</th>
+                           <th style="background-color: #1a3d1c; color: #a5d6a7; padding: 10px; text-align: center;">Crop</th>
+                           <th style="background-color: #1a3d1c; color: #a5d6a7; padding: 10px; text-align: center;">Stage</th>
+                           <th style="background-color: #1a3d1c; color: #a5d6a7; padding: 10px; text-align: center;">Status</th> 
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="padding: 10px; border-bottom: 1px solid #1e4020;">Field 1</td>
+                            <td style="padding: 10px; border-bottom: 1px solid #1e4020;">Wheat</td>
+                            <td style="padding: 10px; border-bottom: 1px solid #1e4020;">Flowering</td>
+                            <td style="padding: 10px; border-bottom: 1px solid #1e4020;">Safe</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 10px; border-bottom: 1px solid #1e4020;">Field 2</td>
+                            <td style="padding: 10px; border-bottom: 1px solid #1e4020;">Tomato</td>
+                            <td style="padding: 10px; border-bottom: 1px solid #1e4020;">Fruiting</td>
+                            <td style="padding: 10px; border-bottom: 1px solid #1e4020;">Urgent</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <h2>AI Recommendations</h2>
+                <p style="background-color: #0f2811; border-left: 4px solid #4caf50; border-radius: 8px; padding: 12px 16px; color: #a5d6a7;">
+                    💡 Spray pesticide - Field 2 - Urgent
+                </p>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
